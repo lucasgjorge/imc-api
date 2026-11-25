@@ -1,0 +1,28 @@
+{
+  "name": "imc-api",
+  "version": "1.0.0",
+  "description": "API REST para cálculo de IMC (Índice de Massa Corporal) com regra de negócio isolada em camada de domínio",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "author": "Lucas Ribeiro Jorge",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.10",
+    "@types/supertest": "^7.2.1",
+    "supertest": "^7.3.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.2"
+  },
+  "type": "commonjs"
+}
